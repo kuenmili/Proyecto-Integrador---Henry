@@ -1,4 +1,4 @@
-import {ADD_FAV, REMOVE_FAV, ON_CLOSE_BUTTON} from './action-types'
+import {ADD_FAV, REMOVE_FAV, ON_CLOSE_BUTTON, ORDER, FILTER} from './action-types'
 
 export const addFav = (character) => {
     return {
@@ -19,5 +19,16 @@ export const onCloseButton = (id) => {
         type: ON_CLOSE_BUTTON,
         payload: id 
     }
-}
+};
 
+export const filterCards = (gender) => {
+    return {
+        type: FILTER, payload: gender
+    }
+};
+
+export const orderedCards = (order) => {
+    return {
+        type: ORDER, payload: order
+    }
+};

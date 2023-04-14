@@ -9,10 +9,7 @@ const Form = ({login}) => {
         password: '',
     });
 
-    const [errors, setErrors] = useState({
-        email: "",
-        password: "",   
-    });
+    const [errors, setErrors] = useState({});
 
     const handleChange = (event) => {
         const property = event.target.name;

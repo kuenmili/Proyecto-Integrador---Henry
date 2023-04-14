@@ -3,6 +3,7 @@ import cardStyle from './Card.module.css'
 import { connect } from 'react-redux';
 import { addFav, removeFav, onCloseButton } from '../../redux/actions';
 import { useState, useEffect} from 'react';
+import { Link } from 'react-router-dom';
 
 
  function Card ({myFavorites, onClose, id, name, status,species, gender, origin, image, removeFav, addFav, onCloseButton}) {
