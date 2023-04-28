@@ -1,0 +1,13 @@
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 1rem;
+    margin-top: 50px;
+    justify-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    
+}

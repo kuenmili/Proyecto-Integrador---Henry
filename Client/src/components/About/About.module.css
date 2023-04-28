@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Get Schwifty';
+    src: url('../../../public/get_schwifty.ttf') format('truetype');
+  }
+
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;    
+    padding-top: 20px;
+    
+}
+
+.title{
+    color: aliceblue;
+    font-size: 24px;
+    font-family: 'Get Schwifty', sans-serif;
+}
+
+
+
+.image{
+    width: 150px;
+    height: 150px;
+    margin-top: 150px;
+}
+
+.lemonCont{
+    display: flex;
+    justify-content: space-between;
+}
+.lemon{
+    width: 150px;
+    height: 150px;
+    margin-top: 150px;
+}
+
+
+.p{
+    
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Get Schwifty', sans-serif;
+}
