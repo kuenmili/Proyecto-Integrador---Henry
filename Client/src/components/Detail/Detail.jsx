@@ -25,7 +25,7 @@ const Detail = () => {
 
     return(
         <div className={detailStyle.container}>
-            <div  >
+            <div>
                 <img src={character?.image} alt={character?.name} />
             </div>
             <>

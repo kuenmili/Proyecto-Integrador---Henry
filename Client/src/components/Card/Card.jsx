@@ -55,7 +55,10 @@ import { connect } from 'react-redux';
             <h2 >{gender}</h2>
          </div>
 
-         <button className= { cardStyle.fav } onClick={handleFavorite}>{isFav ? '❤️' : '🤍' }</button>
+         <button className= { cardStyle.fav } onClick={handleFavorite}>{
+         isFav
+         ? '❤️' 
+         : '🤍' }</button>
          
       </div>
 

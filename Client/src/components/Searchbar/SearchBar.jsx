@@ -11,7 +11,7 @@ export default function SearchBar({onSearch}) {
    
    return (
       <div className={style.container}>
-          <input type='search' onChange = {handleChange}  value={id} className={style.input} />
+          <input type='search' onChange = {handleChange}  value={id} className={style.input} placeholder="ID Card"/>
          <button onClick={() => {onSearch(id); setId('')}} className={style.button}>Add</button> 
       </div>
    );

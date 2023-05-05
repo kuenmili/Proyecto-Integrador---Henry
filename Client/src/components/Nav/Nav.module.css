@@ -1,5 +1,7 @@
-
-
+@font-face {
+  font-family: 'Raleway-Regular';
+  src: url('../../../public/Raleway-Regular.ttf') format('truetype');
+}
 
 .nav{
     display: flex;
@@ -13,23 +15,21 @@
   cursor: pointer;
   width: 7em;
   position: relative;
-  height: 2.9em;
-  border: 3px ridge #1bea14;
-  outline: none;
+  height: 2.9em; 
+  font-family: Raleway-Regular;
   background-color: transparent;
   color: white;
   transition: 1s;
   border-radius: 0.3em;
   font-size: 15px;
   margin-left: -80px;
-  
+  border: none;
 }
 
 .random:hover{
   color: #1bea14;
   transform: translateY(-7px);
   transition: 0.3s;
-  
   
 }
 
@@ -44,7 +44,7 @@
   cursor: pointer;
   width: 5em;
   height: 1.2em;
-  border: 2px ridge #1bea14;
+  font-family: Raleway-Regular;
   color: white;
   border-radius: 0.3em;
   font-size: 15px;

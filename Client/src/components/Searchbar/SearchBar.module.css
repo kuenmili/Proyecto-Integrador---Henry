@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Raleway-Regular';
+  src: url('../../../public/Raleway-Regular.ttf') format('truetype');
+}
+
 .container{
   display: flex;
  
@@ -11,8 +16,7 @@
 .input {
   cursor:text;
   min-height: 45px;
-  max-width: 100px;
-  
+  max-width: 100px;  
   color: #fff;
   font-size: 15px;
   border-top: none;
@@ -48,6 +52,7 @@
   border-radius: 0.3em;
   font-size: 15px;
   margin-left: 20px;
+  font-family: 'Raleway-Regular';
   
 }
 
