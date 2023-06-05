@@ -38,10 +38,11 @@ const Form = ({login}) => {
                 <input 
                     name="email"
                     type="email"
-                    placeholder="Ingrese su correo electrónico" 
+                    placeholder="Enter email" 
                     value={userData.email} 
                     onChange={handleChange}
                     className={style.input}
+                    autoComplete="off"
                 />
                 {errors.email && <p className={style.error}>{errors.email}</p>}     
                 
@@ -50,15 +51,18 @@ const Form = ({login}) => {
                 <input 
                     name="password" 
                     type="password" 
-                    placeholder="Ingrese su contraseña" 
+                    placeholder="Enter password" 
                     value={userData.password}
                     onChange={handleChange}
                     className={style.input}
+                    autoComplete="off"
                  />
                 {errors.password && <p className={style.error}>{errors.password}</p>}
 
             
-            <button className={style.button}>Iniciar sesión</button>
+            </div>
+            <div className={style.buttonContainer}>
+                <button className={style.button}>Sign in</button>
             </div>
         </form>
     </div>
